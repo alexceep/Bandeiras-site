@@ -17,7 +17,7 @@ O projeto une:
 
 ## 🌐 Acesse o site
 
-👉 https://alexceep.github.io/Bandeiras-site/index.html
+👉 https://alexceep.github.io/Bandeiras-site/
 
 ---
 
