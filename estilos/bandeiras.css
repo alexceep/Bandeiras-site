@@ -1,0 +1,73 @@
+main{
+    margin-top: 5rem;
+}
+
+.bandeiras {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.continente{
+    width: 100%;
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 5rem;
+    color: black;
+}
+
+.bandeiraItem {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 20rem;
+    padding: 0.6rem;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.bandeiraItem:hover {
+    transform: translateY(-0.5rem);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.bandeiraItem img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 1rem;
+}
+
+.informacoes h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.informacoes h3 {
+    margin: 0.5rem 0;
+    font-size: 16px;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .continente {
+        font-size: 3.5rem;
+    }
+
+    .bandeiraItem {
+        width: 16rem;
+        padding: 0.5rem;
+    }
+
+    .informacoes h2 {
+        font-size: 1.2rem;
+    }
+
+    .informacoes h3 {
+        font-size: 0.8rem;
+    }
+}

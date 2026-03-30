@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../Bandeiras site/estilos/menu.css"/>
+        <link rel="stylesheet" type="text/css" href="../Bandeiras site/estilos/pesquisar.css"/>
+        <script src="../Bandeiras site/scripts/pesquisar.js" defer></script>
+        <script src="../Bandeiras site/scripts/bandeiras.js" defer></script>
+        <script src="../Bandeiras site/scripts/menu.js" defer></script>
+        <link rel="icon" href="../Bandeiras site/imagens/Logo.png">
+        <title>FlagWiki</title>
+    </head>
+    <body>
+        <nav>
+            <div class="menu">
+                <a href="../Bandeiras site/index.html"><img src="../Bandeiras site/imagens/logoCompleta.png" alt="Logo" class="logo"></a>
+                <div class="hamburguer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="botoes-menu">
+                    <li><a href="../Bandeiras site/index.html">Início</a></li>
+                    <li><a href="../Bandeiras site/Pesquisar.html">Pesquisar</a></li>
+                    <li class="hamburguer">
+                        <a href="../Bandeiras site/Bandeiras.html">Bandeiras</a>
+                        <ul class="menuzinho">
+                            <li><a href="../Bandeiras site/Bandeiras.html#africa">África</a></li>
+                            <li><a href="../Bandeiras site/Bandeiras.html#america">América</a></li>
+                            <li><a href="../Bandeiras site/Bandeiras.html#asia">Ásia</a></li>
+                            <li><a href="../Bandeiras site/Bandeiras.html#europa">Europa</a></li>
+                            <li><a href="../Bandeiras site/Bandeiras.html#oceania">Oceania</a></li>
+                            <li><a href="../Bandeiras site/Bandeiras.html#outros">Outros</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../Bandeiras site/Quiz.html">Quiz</a></li>
+                </ul>
+            </div>
+        </nav>
+        <main>
+            <div class="fundoPesq">
+                <h1>Pesquisar Bandeiras</h1>
+            <form id="pesquisaForm">
+                <input type="text" id="pesquisaBan" placeholder="Digite o nome do país..." autocomplete="off">
+                <input type="image" src="../Bandeiras site/imagens/iconPesquisar.png" alt="Pesquisar" id="iconPesq">
+                <div id="sugestoes" class="sugestoesLista"></div>
+            </form>
+                <div id="resultado">
+                    <div class="resultadoContainer">
+                        <div id="bandeiraResultado" class="bandeiraPlaceholder"></div>
+                        <div class="infoResultado">
+                            <h2 id="nomePais">Nome do País</h2>
+                            <h3 id="continentePais">Continente: </h3>
+                            <p id="capitalPais">Capital: </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>IFSP Guarulhos. © 2024 FlagWiki.</p>
+            <p>Inspired by: Filipe Ferreira</p>
+        </footer>
+    </body>
+</html>
